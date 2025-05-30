@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artem Zhutov</title>
+
+    <!-- Example: a clean, modern Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      defer
+    ></script>
+
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Open Graph Protocol Meta Tags -->
+    <meta property="og:title" content="Artem Zhutov" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://artemxtech.github.io/" />
+    <meta property="og:image" content="https://artemxtech.github.io/me.png" />
+    <meta
+      property="og:description"
+      content="CEO @ Mindful Systems | Quantum Physics PhD | Building AI agents that give you back your time"
+    />
+    <meta property="og:site_name" content="Artem Zhutov" />
+  </head>
+
+  <body>
+    <!-- HERO with Banner Image -->
+    <header class="hero">
+      <div class="banner-image"></div>
+
+      <div class="hero-content">
+        <div class="profile-img">
+          <!-- Replace with your headshot path or URL -->
+          <img src="me.png" alt="Artem Zhutov" />
+        </div>
+
+        <h1 class="name">Artem Zhutov</h1>
+        <h2 class="subtitle">CEO @ Mindful Systems | Quantum Physics PhD</h2>
+        <p class="tagline">Building AI agents that give you back your time</p>
+      </div>
+    </header>
+
+    <main class="links-section">
+      <div class="links">
+        <a href="https://cal.com/ArtemZhutov" class="link" target="_blank">
+          <i class="fa-solid fa-calendar"></i>
+          <span>Book a Call</span>
+        </a>
+        <a href="mailto:azhutov@uwaterloo.ca" class="link">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact Me</span>
+        </a>
+        <a href="https://github.com/artemxtech" class="link" target="_blank">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://youtube.com/@artemxtech" class="link" target="_blank">
+          <i class="fab fa-youtube"></i>
+          <span>YouTube</span>
+        </a>
+        <a href="https://x.com/artemxtech" class="link" target="_blank">
+          <i class="fab fa-twitter"></i>
+          <span>X (Twitter)</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/artemxtech/"
+          class="link"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Artem Zhutov</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html> 

@@ -1,0 +1,152 @@
+/* -----------------------------------------
+   ROOT & GLOBAL STYLES
+----------------------------------------- */
+:root {
+  --font-body: "Inter", sans-serif;
+  --gradient-start: #1a1a2e;
+  --gradient-end: #16213e;
+  --text-color: #e8eef5;
+
+  --profile-border-color: #00d4ff;
+  --accent-link-bg: #2d4a6b;
+  --hover-bg: #00b4d8;
+  --hover-text-color: #0a1828;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(
+    140deg, 
+    var(--gradient-start) 0%,
+    var(--gradient-end) 100%
+  );
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* -----------------------------------------
+   HERO SECTION
+----------------------------------------- */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: 220px;
+  background: url("banner.svg") center/cover no-repeat;
+  background: linear-gradient(90deg, var(--gradient-start) 0%, #3a5a7a 50%, var(--gradient-end) 100%);
+}
+
+.hero-content {
+  position: relative;
+  top: -70px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 1rem 2rem;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--profile-border-color);
+  box-shadow: 0 0 35px rgba(0, 212, 255, 0.45);
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: #a8c8e1;
+  margin-bottom: 0.8rem;
+}
+
+.tagline {
+  font-size: 1.05rem;
+  color: #c5d8ec;
+}
+
+/* -----------------------------------------
+   LINKS SECTION
+----------------------------------------- */
+.links-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 4rem;
+}
+
+.links {
+  display: grid;
+  row-gap: 0.8rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-link-bg);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: background-color 0.25s ease-out, transform 0.2s ease-out, box-shadow 0.25s ease-out;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.link i {
+  display: inline-block;
+  width: 1.1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.link span {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.link:hover {
+  background-color: var(--hover-bg);
+  color: var(--hover-text-color);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 180, 216, 0.35);
+}
+
+/* -----------------------------------------
+   FOOTER
+----------------------------------------- */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  opacity: 0.75;
+  color: #a5bdd5;
+}
