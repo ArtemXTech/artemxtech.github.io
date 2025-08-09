@@ -9,3 +9,13 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Logs
+logs/
+*.log
+
+# SpecStory
+.specstory/
+
+# Cursor IDE
+.cursorindexingignore
