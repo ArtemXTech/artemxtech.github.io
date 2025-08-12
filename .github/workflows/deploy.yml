@@ -1,9 +1,11 @@
-name: Deploy Quartz site to GitHub Pages
+name: Deploy Quartz to GitHub Pages
 
 on:
   push:
     branches:
-      - v4
+      - main
+      - homepage-redesign-clean
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,34 +13,36 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
+          submodules: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Install Dependencies
-        run: npm ci
+          cache: npm
+      - name: Install dependencies
+        run: npm ci || npm i
       - name: Build Quartz
-        run: npx quartz build
-      - name: Upload artifact
+        run: npm run quartz -- build
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
-
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
