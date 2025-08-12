@@ -1,8 +1,12 @@
 ---
 title: Field Notes — GPT‑5, Cursor and Mobile Agents
+tags: [gpt-5, cursor, mobile-agents, obsidian, weekly-review]
+date: 2025-08-11
+socialImage: screenshot_2_cursor-agent.png
 ---
 
 This week felt like February when everyone started talking about DeepSeek. A lot of hype around GPT‑5. However, I did my tests and found some valuable pieces.
+***
 
 I stress‑tested how I actually work: using **Cursor's semantic search** for weekly reviews, steering **GPT‑5** through large docs, and running **agents from my phone**.
 
@@ -19,18 +23,25 @@ What worked (in short):
 ## On Weekly Reviews
 
 **Cursor's semantic search** is built to help an agent find relevant parts of a codebase—but it also **works great on personal notes**. Paired with consistent journaling, it **makes weekly reviews easy**: On Sunday I open a full‑screen chat in Cursor and ask what actually happened last week—what my observations were, what I tried, which experiments I ran, and what changed because of them. I can also ask to reference the specific files where this information is taken. This is all grounded in my own notes; Having this **context in front of m**e what I was doing the last week, I can **make a better decisions** on what to do next.
-
-![Weekly review in Cursor with GPT-5](screenshot_1_cursor_weekly_review.png)
+![Weekly review in Cursor with GPT-5](screenshot_1_cursor-weekly-review.png)_Weekly review in Cursor with GPT-5_
 
 Here is the prompt I used (model `gpt-5-high`):
 
 ```text
-    Could you please look at my journal entries over the past week? What was going on? Perform very deep semantic searches. I want to focus on understanding what the main points were. What are my observations? What did I try? What experiments did I do? Could you please prepare a detailed outline? Very detailed. Take as much time and as many searches as you need.
-    Use semantic searches and deeply analyze my obsidian vault. mainly journals, observations, experiments
-
+    Could you please look at my journal entries over the past week? 
+    What was going on? Perform very deep semantic searches. 
+    I want to focus on understanding what the main points were. 
+    What are my observations? What did I try? What experiments did I do? 
+    Could you please prepare a detailed outline? Very detailed. 
+    Take as much time and as many searches as you need.
+    Use semantic searches and deeply analyze my obsidian vault. 
+    mainly journals, observations, experiments
+```
 I also use it to generate newsletter ideas. I start from a blank page, set the intent for what I want to convey, and then augment with semantic search across my notes.
 
 GPT‑5‑high makes a noticeable difference. It feels like running deep research over my journals and pulling out the high‑signal pieces with precise citations. Very powerful. Credit to the Cursor team—the recent optimizations make this genuinely useful.
+
+---
 
 ## On GPT‑5 in Cursor
 
@@ -42,23 +53,27 @@ You ask it to do something and then it really goes and searches for this documen
 
 I also like the experience in Cursor—you can reference files, folders, docs very easily. Overall the experience crafting prompts there was better than using CLI tools like Claude Code.
 
+---
+
 ## On Cursor CLI
 
 **Cursor has released their CLI tool**. When I first tried it, the experience felt early—no file referencing and no custom slash commands. Later this week they added referencing, which is a necessary improvement. Planning mode isn't there yet.
 
-![Cursor Agent CLI](screenshot_2_cursor_cli.png "Cursor Agent CLI")
-
-Cursor Agent CLI
+![Cursor Agent CLI](screenshot_2_cursor-agent.png)
+_Cursor Agent CLI_
 
 Overall this is a positive step forward to have access to the model you want to use—`gpt-5`, `sonnet-4`, or `opus-4.1`. However, I primarily use Claude Code because of established workflows with custom slash commands and a state‑of‑the‑art user experience, but I'm watching Cursor CLI steadily.
 
 There also [Amp](https://ampcode.com/) agent which I want to try out for a long time. However, they only have API access and no subscription model. So I'm a bit afraid to use it because of that.
 
+---
+
 ## On Interactive Dashboards using GPT-5
 
 I watched [this video from the channel I versus AI](https://www.youtube.com/watch?v=VgpLG0jZwzU) and felt that familiar "this is cool" spark. I want to try it. **Here is the dashboard which is build in Obsidian using Dataview.js and GPT-5**!
 
-[Personal dashboard in Obsidian with Dataview.js (credits: IversusAI)](screenshot_3_obsidian_dashboard.png)
+![Personal dashboard in Obsidian with Dataview.js (credits: IversusAI)](screenshot_3_personal-dashboard.png)
+_Personal dashboard in Obsidian with Dataview.js (credits: IversusAI)_
 
 By using latest AI models and proper context management (docs), right now it's easier than ever to build custom dashboards that display the information you want.
 
@@ -68,11 +83,14 @@ I'm most interested in dashboards that would enable me to make better decisions.
 
 This reminds me of a term that’s picking up: “**context engineering**.” As an operator of LLMs, our job becomes defining the context for the LLM to be successful in the task. I also think this translates to the human side: what information do I need to know at this moment to make my best decision? **Context engineering for myself.**
 
+---
+
 ## On Mobile Agents
 
 I keep a minimal flow so I can talk to my notes and vibe code while walking. From the phone I do my morning and evening check-ins, or ask "what did I focus on in the last three days?" with short cited snippets.
 
-![Running Claude Code from your Phone!](screenshot_4_claude_code_mobile.png)
+![Running Claude Code from your Phone!](screenshot_4_mobile-agent.png)
+_Running Claude Code from your Phone!_
 
 The magic is in **custom slash commands**—they make workflows instant. I have commands for my morning routine, evening routine, and weekly reviews. I just run them and the agent follows a predefined workflow. Since I've already defined these workflows, there's no need to explain the task each time. It's effortless execution from the phone.
 
@@ -80,6 +98,8 @@ The goal isn't to make the phone do everything; **it's to keep momentum**. The s
 
 If you want the minimal setup for this phone flow, I recorded a short walkthrough on talking to your Obsidian notes from your phone:  
 [Talk To Your Obsidian Notes on the Go (Claude Code Mobile Setup)](https://youtu.be/aZZaqmcq-1Q)
+
+---
 
 ## Why I'm Writing This
 
