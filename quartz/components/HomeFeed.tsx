@@ -23,38 +23,40 @@ export default ((userOpts?: Options) => {
     return (
       <section class="home-posts">
         <h2>{opts.title}</h2>
-        {pages.map((page) => {
-          const title = page.frontmatter?.title ?? "Untitled"
-          const href = resolveRelative(fileData.slug!, page.slug!)
-          const dt = page.dates ? getDate(cfg, page) : undefined
-          const description = (page.description ?? "").toString()
-          const socialImage = page.frontmatter?.socialImage as string | undefined
+        <div class="posts-grid">
+          {pages.map((page) => {
+            const title = page.frontmatter?.title ?? "Untitled"
+            const href = resolveRelative(fileData.slug!, page.slug!)
+            const dt = page.dates ? getDate(cfg, page) : undefined
+            const description = (page.description ?? "").toString()
+            const socialImage = page.frontmatter?.socialImage as string | undefined
 
-          return (
-            <article class="post-card">
-              {socialImage && (
-                <img
-                  src={resolveRelative(fileData.slug!, socialImage as FullSlug)}
-                  alt=""
-                  class="post-card-image"
-                />
-              )}
-              <div class="post-card-content">
-                {dt && (
-                  <time datetime={dt.toISOString()}>
-                    <Date date={dt} locale={cfg.locale} />
-                  </time>
+            return (
+              <article class="post-card">
+                {socialImage && (
+                  <img
+                    src={resolveRelative(fileData.slug!, socialImage as FullSlug)}
+                    alt=""
+                    class="post-card-image"
+                  />
                 )}
-                <h3>
-                  <a href={href} class="internal">
-                    {title}
-                  </a>
-                </h3>
-                {description && <p>{description}</p>}
-              </div>
-            </article>
-          )
-        })}
+                <div class="post-card-content">
+                  {dt && (
+                    <time datetime={dt.toISOString()}>
+                      <Date date={dt} locale={cfg.locale} />
+                    </time>
+                  )}
+                  <h3>
+                    <a href={href} class="internal">
+                      {title}
+                    </a>
+                  </h3>
+                  {description && <p>{description}</p>}
+                </div>
+              </article>
+            )
+          })}
+        </div>
       </section>
     )
   }

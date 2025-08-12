@@ -185,7 +185,13 @@ body[data-slug="index"] hr {
 
 .home-posts h2 {
   font-size: 1.8rem;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
+}
+
+.posts-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .post-card {
