@@ -1,5 +1,8 @@
 ---
 title: I Built a Personal AI Assistant for My Day in Obsidian
+date: 2025-07-15
+tags: [obsidian, claude-code, macos-shortcuts, personal-assistant]
+socialImage: assets/screenshot_2_calendar_obsidian_sync.png
 ---
 
 ***
@@ -14,12 +17,12 @@ I used to spend my first waking hour trying to assemble a plan, scattered across
 
 Here's my morning now. I press a single button to run a macOS Shortcut "Start day":
 <div style="text-align: center;">
-<img src="screenshot_5_shortcut.png" alt="macOS Shortcut interface showing the Start day shortcut configuration" width="400">
+<img src="./assets/screenshot_5_shortcut.png" alt="macOS Shortcut interface showing the Start day shortcut configuration" width="400">
 </div>
 
 A terminal window opens and an AI agent greets me. It's already scanned my calendar and presents exactly what I need to know right now:
 
-![A clean screenshot of the terminal showing the agent's welcome message, calendar summary, and prompts.](screenshot_1_terminal_greeting.png)
+![A clean screenshot of the terminal showing the agent's welcome message, calendar summary, and prompts.](./assets/screenshot_1_terminal_greeting.png)
 
 The agent then asks me three questions I designed for myself:
 
@@ -39,7 +42,7 @@ This morning, as I reviewed my note, I realized I'd forgotten to add an event. T
 
 The agent understood the natural language. It ran a script, created the event in my calendar, and updated the daily note in Obsidian to keep everything in sync. The system adjusted to my thinking in real time, without breaking my flow.
 
-![A side-by-side screenshot showing the Calendar app with the new event and the Obsidian note updated with the same event.](screenshot_2_calendar_obsidian_sync.png)
+![A side-by-side screenshot showing the Calendar app with the new event and the Obsidian note updated with the same event.](./assets/screenshot_2_calendar_obsidian_sync.png)
 
 ### 3. under the hood: simple tools, powerful orchestration
 
@@ -55,7 +58,7 @@ The magic isn't in any single tool, but in how the agent connects them at the ri
 ### 4. control, privacy, and permissions
 
 You have complete control over what the agent sees. You can use the `/permission` command to automatically deny access to specific folders or grant it for the operations it needs. In the slash command itself, you can pre-approve the tools the agent needs, so it doesn't have to ask every time.
-![Claude Code permissions interface showing how to control agent access](screenshot_3_claude_permissions.png)
+![Claude Code permissions interface showing how to control agent access](./assets/screenshot_3_claude_permissions.png)
 
 ### 5. context is everything: teaching the agent what you want
 
@@ -69,7 +72,7 @@ Don't say "create calendar event." Tell it exactly how. Here's a real example fr
 ```
 
 This is the new craft. There's a balance between rigid scripts and flexible agents. Scripts are for deterministic, repetitive tasks. Agents are for when you need interpretation and adaptation.  That's where they shine.
-![Agent slash command interface showing how to configure specific instructions](screenshot_4_agent_slash_command.png)
+![Agent slash command interface showing how to configure specific instructions](./assets/screenshot_4_agent_slash_command.png)
 ### 6. the future is a personal system
 
 Obsidian is where you store your brain. Claude Code is what turns that passive archive into an active system. Together, they make your knowledge base an active participant in your daily routines.
