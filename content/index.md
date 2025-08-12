@@ -8,11 +8,8 @@ cssclasses: ["home"]
 
 # Hi, I'm Artem
 
-I'm a Physics PhD student at the Institute for Quantum Computing, Canada.
+I help people do their best work by building personal AI agents. On [YouTube](https://www.youtube.com/@ArtemXTech), I share real experiments so you can delegate what drains you and amplify the work you love.
 
-I build Obsidian automations.
-
-<a class="btn btn-primary" href="/I-Built-a-Personal-AI-Assistant-for-My-Day-in-Obsidian">Read latest post</a>
 
 <div class="icon-row">
 <a class="icon-btn" aria-label="GitHub" href="https://github.com/ArtemXTech/"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.7 2 12.5c0 4.6 2.87 8.5 6.85 9.88.5.1.69-.22.69-.49 0-.24-.01-.88-.01-1.73-2.78.63-3.37-1.22-3.37-1.22-.45-1.18-1.11-1.5-1.11-1.5-.91-.65.07-.64.07-.64 1 .07 1.53 1.07 1.53 1.07.9 1.61 2.37 1.15 2.95.88.09-.67.35-1.15.63-1.41-2.22-.26-4.56-1.17-4.56-5.21 0-1.15.39-2.08 1.03-2.82-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.07.8-.23 1.65-.35 2.5-.35.85 0 1.7.12 2.5.35 1.91-1.35 2.75-1.07 2.75-1.07.55 1.42.2 2.47.1 2.73.64.74 1.03 1.67 1.03 2.82 0 4.05-2.35 4.95-4.59 5.2.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49C19.13 21 22 17.1 22 12.5 22 6.7 17.52 2 12 2z"/></svg></a>
@@ -26,13 +23,5 @@ I build Obsidian automations.
 </div>
 
 <section class="home-posts">
-  <h2>Posts</h2>
-  <article class="post-card">
-    <img src="screenshot_2_calendar_obsidian_sync.png" alt="Calendar and Obsidian sync demonstration" class="post-card-image">
-    <div class="post-card-content">
-      <time datetime="2025-07-15">July 15, 2025</time>
-      <h3><a href="/I-Built-a-Personal-AI-Assistant-for-My-Day-in-Obsidian">I Built a Personal AI Assistant for My Day in Obsidian</a></h3>
-      <p>How I automated my morning routine with a voice-driven AI agent that creates daily notes and manages my calendar using macOS Shortcuts, Obsidian, and Claude Code.</p>
-    </div>
-  </article>
+  <!-- Latest posts are now injected via layout Component.HomeFeed({ limit: 3 }) -->
 </section>
