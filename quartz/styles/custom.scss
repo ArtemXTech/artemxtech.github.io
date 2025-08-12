@@ -178,6 +178,11 @@ img.home-avatar {
   padding-top: 28px;
 }
 
+/* Hide the default divider on homepage when HomeFeed is appended after content */
+body[data-slug="index"] hr {
+  display: none;
+}
+
 .home-posts h2 {
   font-size: 1.8rem;
   margin-bottom: 18px;
