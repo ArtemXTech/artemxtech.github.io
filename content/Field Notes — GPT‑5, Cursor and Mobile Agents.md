@@ -2,7 +2,7 @@
 title: Field Notes — GPT‑5, Cursor and Mobile Agents
 tags: [gpt-5, cursor, mobile-agents, obsidian, weekly-review]
 date: 2025-08-11
-socialImage: screenshot_2_cursor-agent.png
+socialImage: assets/screenshot_2_cursor-agent.png
 ---
 
 This week felt like February when everyone started talking about DeepSeek. A lot of hype around GPT‑5. However, I did my tests and found some valuable pieces.
