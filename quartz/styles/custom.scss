@@ -194,6 +194,12 @@ body[data-slug="index"] hr {
   gap: 32px;
 }
 
+.post-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .post-card {
   background: color-mix(in srgb, var(--secondary) 3%, var(--light));
   border: 1px solid var(--lightgray);

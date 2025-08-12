@@ -32,28 +32,28 @@ export default ((userOpts?: Options) => {
             const socialImage = page.frontmatter?.socialImage as string | undefined
 
             return (
-              <article class="post-card">
-                {socialImage && (
-                  <img
-                    src={resolveRelative(fileData.slug!, socialImage as FullSlug)}
-                    alt=""
-                    class="post-card-image"
-                  />
-                )}
-                <div class="post-card-content">
-                  {dt && (
-                    <time datetime={dt.toISOString()}>
-                      <Date date={dt} locale={cfg.locale} />
-                    </time>
+              <a href={href} class="internal post-card-link">
+                <article class="post-card">
+                  {socialImage && (
+                    <img
+                      src={resolveRelative(fileData.slug!, socialImage as FullSlug)}
+                      alt=""
+                      class="post-card-image"
+                    />
                   )}
-                  <h3>
-                    <a href={href} class="internal">
+                  <div class="post-card-content">
+                    {dt && (
+                      <time datetime={dt.toISOString()}>
+                        <Date date={dt} locale={cfg.locale} />
+                      </time>
+                    )}
+                    <h3>
                       {title}
-                    </a>
-                  </h3>
-                  {description && <p>{description}</p>}
-                </div>
-              </article>
+                    </h3>
+                    {description && <p>{description}</p>}
+                  </div>
+                </article>
+              </a>
             )
           })}
         </div>
