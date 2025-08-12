@@ -5,7 +5,12 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.HomeFeed({ limit: 3, title: "Posts" }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+  ],
   footer: Component.Footer({}),
 }
 
