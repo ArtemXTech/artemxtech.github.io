@@ -5,7 +5,7 @@ date: 2025-08-20
 socialImage: assets/cchistory.png
 categories:
 ---
-Hey guys, here is what caught my attention last week. Let's explore together: AI agents work better with fewer tools, tracking Claude Code expenses, and research just got effortless. 
+AI agents work better with fewer tools, tracking Claude Code expenses, and research just got effortless. 
 
 ---
 
