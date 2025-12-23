@@ -1,5 +1,5 @@
 ---
-title: AI-Powered Task Management in Obsidian with TaskNotes
+title: AI-Powered Task Management in Obsidian (TaskNotes + Claude Code)
 date: 2025-12-23
 tags: [obsidian, claude-code, task-management, productivity]
 socialImage: assets/tasknotes-skill-architecture.png
