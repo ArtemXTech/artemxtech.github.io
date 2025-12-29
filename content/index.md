@@ -8,7 +8,9 @@ cssclasses: ["home"]
 
 # Hi, I'm Artem
 
-I help people do their best work by building personal AI agents. On [YouTube](https://www.youtube.com/@ArtemXTech), I share real experiments so you can delegate what drains you and amplify the work you love.
+I'm building a Personal AI System with Claude Code + Obsidian.
+
+I share what's working on [YouTube](https://www.youtube.com/@ArtemXTech) and in my [newsletter](https://artemxtech.substack.com).
 <div class="icon-row">
 <a class="icon-btn" aria-label="YouTube" href="https://www.youtube.com/@ArtemXTech"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6.5" width="18" height="11" rx="3" ry="3"></rect><polygon fill="currentColor" points="11,9 16,12 11,15"></polygon></svg></a>
 <a class="icon-btn" aria-label="Substack" href="https://substack.com/@artemxtech"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3" ry="3"></rect><line x1="6" y1="8" x2="18" y2="8"></line><line x1="6" y1="11" x2="18" y2="11"></line><line x1="6" y1="14" x2="18" y2="14"></line></svg></a>
