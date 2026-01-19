@@ -2,7 +2,11 @@
 title: "10 Workshop Attendees, 1 Bug in Cowork, and Why I Swear at Claude"
 date: 2026-01-19
 tags: [newsletter, claude-code, obsidian]
-description: "Attention management, walking dictation, MCP search, and honest first impressions"
+socialImage: assets/cold-turkey-claude-block.png
+---
+
+**Attention management, walking dictation, MCP search, and honest first impressions**
+
 ---
 
 ## Managing Attention with Claude
