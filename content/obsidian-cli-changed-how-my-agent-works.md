@@ -2,7 +2,7 @@
 title: "Obsidian CLI Changed How My Agent Works"
 date: 2026-02-12
 tags: [newsletter, claude-code, obsidian, obsidian-cli]
-socialImage: assets/obsidian-cli-commands-table.png
+socialImage: assets/obsidian-cli-kepano-tweet.png
 ---
 
 **Base queries, vault health, and why I stopped reading 70 files to check frontmatter**
