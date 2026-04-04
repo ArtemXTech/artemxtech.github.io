@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npm --version)",
+      "Bash(nvm install:*)",
+      "Bash(npx quartz:*)",
+      "Bash(nvm use:*)",
+      "Bash(source:*)",
+      "Bash(npm install)",
+      "Bash(nvm alias:*)",
+      "Bash(rg:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run:*)",
+      "Bash(ls:*)",
+      "Bash(git remote:*)",
+      "Bash(rm:*)",
+      "Bash(git add:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git-filter-repo:*)",
+      "Bash(git -C /tmp/repo-check log --oneline --name-only -- .specstory/)",
+      "Bash(git reset:*)",
+      "Bash(find:*)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(mv:*)",
+      "Bash(git clone:*)"
+    ],
+    "deny": []
+  }
+}
