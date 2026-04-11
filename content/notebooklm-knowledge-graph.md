@@ -94,9 +94,6 @@ Here's the full pipeline from input to output:
 
 Everything in this video was built live in the [Claude Code x Obsidian Lab](https://lab.artemzhutov.com) - this was Week 5: Workflows and External Automations. 6 weeks, one workflow per week, from zero to a working system.
 
-![Lab program overview](assets/lab-program-overview.png)
-*Lab program: 6 weeks, one workflow per week*
-
 Here's what Lab participants are building:
 - **L., engineer** - autonomous CRM agent with LinkedIn crawling and a secured DMZ for prompt injection protection
 - **A., content creator** - `/create-presentation` skill that turns Obsidian plans into slides automatically
