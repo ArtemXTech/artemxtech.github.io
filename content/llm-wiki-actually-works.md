@@ -11,7 +11,7 @@ socialImage: assets/dalio-5-step.jpg
 
 The top comment on the biggest LLM wiki video says it's "largely worthless for most people."
 
-I wanted to know if he is right. My goal is to improve my decision making. I really love Ray Dalio. I have his book called Principles. So I took the same sources, the same goal, then built the wiki and my system side by side in real time.
+I wanted to know if he is right. ⌕ My goal is to improve my decision making. I really love Ray Dalio. I have his book called Principles. So I took the same sources, the same goal, then built the wiki and my system side by side in real time.
 
 ![Dalio's 5-step process. Diagram via jareddees.com.](assets/dalio-5-step.jpg)
 *Dalio's 5-step process. Diagram via jareddees.com.*
@@ -61,19 +61,19 @@ My goal is to improve my decision making. I ask questions about it. I extract th
 
 Three steps:
 
-1. Create skills out of this knowledge.
-2. Integrate those skills into your daily routines.
-3. Run those new skills within the routines.
+1. ⚡ Create skills out of this knowledge.
+2. ↻ Integrate those skills into your daily routines.
+3. ▸ Run those new skills within the routines.
 
 A great example is a morning routine, where you integrate the decision-making framework into how you distribute your time.
 
 I built a decision-making skill based on Dalio's 5-step process:
 
-1. Know your goals.
-2. Don't tolerate problems.
-3. Diagnose the root causes.
-4. Design a plan.
-5. Execute the plan.
+1. ◎ Know your goals.
+2. ⚠ Don't tolerate problems.
+3. ⌕ Diagnose the root causes.
+4. ◈ Design a plan.
+5. ▸ Execute the plan.
 
 I added a daily template with reflection prompts, and a weekly review section that asks: "Are the problems repeated this week? Are they the same type of problems we had from last week?"
 
