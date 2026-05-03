@@ -9,6 +9,10 @@ socialImage: assets/2026-05-03-ai-slop-D02.png
 
 ---
 
+Hey, it's Artem :)
+
+It's been almost a year since I started using Claude Code with Obsidian. Here are my crystallized learnings.
+
 You ask AI to write a draft, do something for you. You read it. The output is generic. You tell it to fix it. Still generic... 1 hour later you end up rewriting it yourself.
 
 Sound familiar?
