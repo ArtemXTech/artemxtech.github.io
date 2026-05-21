@@ -94,7 +94,7 @@ Here are some tradeoffs of HTML versus markdown.
 ## Watch the videos
 
 - **[Markdown 2.0: Notes Are Software Now](https://www.youtube.com/watch?v=5PlXWwkDJPQ)** — the principle and three concrete things you can render from notes you already have.
-- **Build your Claude Code Command Center in Obsidian** — the one dashboard me and Claude open every morning. (Link coming — paste the YouTube URL when you go live.)
+- **[Build your Claude Code Command Center in Obsidian](https://www.youtube.com/watch?v=_dVSjwsgXAo)** — the one dashboard me and Claude open every morning. Dynamic memory for your agent.
 
 That's it for this one. Build a dashboard, open it tomorrow morning, tell me how it feels.
 
