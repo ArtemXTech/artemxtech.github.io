@@ -144,8 +144,7 @@ What have you tried? What works, what's not?
 **Workshop** - Stop re-explaining your life to AI. 2 days live, hands-on, leave with your system running. February 7-8.
 [workshop.artemzhutov.com](https://workshop.artemzhutov.com)
 
-**Lab** - Turn your Obsidian into notes that do the work. No code. 6-week program, beginner-friendly. Starts January 27.
-[lab.artemzhutov.com](https://lab.artemzhutov.com)
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

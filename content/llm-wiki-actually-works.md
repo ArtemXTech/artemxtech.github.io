@@ -123,17 +123,7 @@ I built a NotebookLM skill that does this in one command: [notebooklm-skill-arte
 
 ## One more thing
 
-Claude Code x Obsidian Lab Cohort 3 starts May 5.
-
-Five weeks building a personal operating system like the one in this newsletter. We turn sources into skills, then integrate those skills into your daily routines so they help you do your work.
-
-We just wrapped Cohort 2. You are getting the combined learning from 40 people who built their personal operating system in the first two cohorts.
-
-Last cohort F. came in as an ADHD non-programmer and shipped 400 commits in his first week. He told me the tools supplemented his weaknesses and he got years of work done in a week. Kind of mind-blowing.
-
-Cohort 3 is capped at 12 seats. On Wednesday, April 22, the price goes from $790 to $980.
-
-[lab.artemzhutov.com](https://lab.artemzhutov.com)
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

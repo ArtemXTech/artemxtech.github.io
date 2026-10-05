@@ -150,12 +150,7 @@ Join our Discord community: https://discord.gg/g5Z4Wk2fDk
 **Skills repo** - browse and use the skills I mentioned
 https://github.com/ArtemXTech/personal-os-skills
 
-**Workshop** - 2-day hands-on program to get started. This weekend, January 17th.
-https://workshop.artemzhutov.com
-
-**Lab** - 6-week program to build your personal OS from scratch. Starts January 27th.
-Early bird extended through Monday and Tuesday.
-https://lab.artemzhutov.com
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

@@ -169,8 +169,7 @@ Join our Discord community: https://discord.gg/g5Z4Wk2fDk
 **Skills repo** - Browse the skills I mentioned
 https://github.com/ArtemXTech/personal-os-skills
 
-**Claude Code x Obsidian Lab** - 6-week program where we build workflows like this from scratch every week. Everything in this video was built live in the Lab.
-https://lab.artemzhutov.com
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

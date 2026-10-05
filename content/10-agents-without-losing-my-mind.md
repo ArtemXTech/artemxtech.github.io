@@ -165,13 +165,7 @@ Most people using AI are somewhere on this spectrum:
 What you just read is Level 7.
 Most people are at 2-4.
 
-In the **Claude Code x Obsidian Lab** (starts March 17) we take you from wherever you are to Level 5-6.
-Some of you will touch 7.
-
-How to structure your vault so agents can read it.
-How to spawn and orchestrate workspaces.
-How to use Obsidian Bases to track your work without manual updates.
-You build it with me over six weeks. [lab.artemzhutov.com](https://lab.artemzhutov.com)
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ## From Tabs to Workspaces
 
@@ -198,8 +192,7 @@ https://cmux-artemzhutov.netlify.app
 **Watch the full demo:**
 https://youtu.be/_gBw4j-UKBg
 
-**Claude Code x Obsidian Lab** - starts March 17. Build your own agent systems from scratch, with live feedback.
-https://lab.artemzhutov.com
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

@@ -177,7 +177,7 @@ The memory layer works as a skill across your whole stack. I use Obsidian Sync t
 
 Download the `/recall` skill, drop it in your `.claude/skills/` folder, and you have the session pipeline and recall working today (or ask Claude to do it for you :) ).
 
-If you want the full system, I'm running **[Claude Code x Obsidian Lab](https://lab.artemzhutov.com/)** - 6 weeks, hands-on. We start from scratch: setting up Obsidian, setting up Claude Code, getting everyone up to speed. Then we go beyond what I showed here. You build your own skills, your own workflows, your own agent that actually knows your context. Bi-weekly workshops and masterminds where you get real feedback from the group. Everyone has similar problems - information overload, Claude creating a mess, spending more time tuning Obsidian than doing real work. Cohort 2 starts March 17.
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 
@@ -196,8 +196,7 @@ https://github.com/tobi/qmd
 https://memory-artemzhutov.netlify.app
 The fastest way to get started: tell Claude Code to read the setup guide included in the repo and install everything for you.
 
-**Claude Code x Obsidian Lab** - 6 weeks of hands-on practice building AI workflows that use your notes. Cohort 2 starts March 17. Early bird pricing ends this week.
-https://lab.artemzhutov.com
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 **Watch the full video** - 42 min walkthrough with live demos.
 https://youtu.be/RDoTY4_xh0s

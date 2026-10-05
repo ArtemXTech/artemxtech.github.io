@@ -185,8 +185,7 @@ https://scheduled-tasks-artemzhutov.netlify.app/
 **Full walkthrough (26 min)** - I set up each automation from scratch.
 https://youtube.com/watch?v=fOpFgjH8IfQ
 
-**Claude Code x Obsidian Lab** - Cohort 2 starts March 17. We start from scratch: setting up Obsidian, setting up Claude Code, getting everyone up to speed. Then we go beyond. You build your own skills, your own workflows, your own agent. Live, with real feedback from the group.
-https://lab.artemzhutov.com
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

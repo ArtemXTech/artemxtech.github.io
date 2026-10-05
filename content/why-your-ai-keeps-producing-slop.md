@@ -103,12 +103,6 @@ If you're tired of redoing everything. If your obsidian vault is going generic. 
 
 Then it's time to train your agent.
 
-I run 5 weeks of live workshops where you build your own personal operating system with Claude code and obsidian. Your vault becomes the system that helps you do your work and achieve the best results :)
-
-Cohort 3 starts Tuesday. 4 seats remaining (they go fast on the last day). Deadline: Mon May 4 11:59pm ET.
-
-https://lab.artemzhutov.com
-
-See you Tuesday <3
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 Artem

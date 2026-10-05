@@ -109,8 +109,7 @@ That's the best way to learn, by doing something.
 **Full walkthrough (18 min)** - I load 300 Huberman episodes, run a cited interview, turn it into experiments.
 [Watch on YouTube](https://youtube.com/watch?v=KRpZSvtMiTI)
 
-**Claude Code x Obsidian Lab** - You come in with your own goal. You leave with a system that does things for you. One member with zero programming experience wrote 100,000+ lines of code with autonomous task loops. Another built a `/daily` command that manages his entire family life. 5 weeks. 10 live sessions. Cohort 3 starts April 28.
-[lab.artemzhutov.com](https://lab.artemzhutov.com)
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

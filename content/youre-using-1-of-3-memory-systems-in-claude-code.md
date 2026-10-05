@@ -190,7 +190,7 @@ How to get started with the basics:
 2. Run `/memory`. Turn on auto-memory and auto-dream.
 3. Just use it. Correct Claude when it gets something wrong. The memory builds itself.
 
-Everything in this post, the memory structure, the skills, the dashboards, that's what people build in the [Claude Code x Obsidian Lab](https://lab.artemzhutov.com). In 5 weeks you walk out with a working system. 20 people across 9 countries built theirs last cohort. None of them were software developers. Cohort 3 starts April 28.
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
 
 ---
 

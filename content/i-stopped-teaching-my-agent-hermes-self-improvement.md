@@ -99,10 +99,4 @@ Really exciting times to start using it.
 
 ---
 
-Cohort 3 of the Claude Code x Obsidian Lab starts May 5.
-
-We integrate AI agents with our context in Obsidian to build a personal operating system. Five weeks of live sessions.
-
-This cohort I have capacity for 10 people. Early bird price now, before it goes up next week.
-
-[lab.artemzhutov.com](https://lab.artemzhutov.com)
+📚 **Take control over your life. Point B, 14-day sprint on personal AI agents, starts Nov 3:** [lab.artemzhutov.com](https://lab.artemzhutov.com)
